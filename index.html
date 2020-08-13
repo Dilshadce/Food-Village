@@ -945,7 +945,7 @@
             e.preventDefault()
             $.ajax({
                 url:"https://script.google.com/macros/s/AKfycbxnkBotUNx1T756-CEBRh-_AOdm9wdS9FFNrrvlvA/exec",
-                data:₹("#submit-form").serialize(),
+                data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
                     alert("Your Table is Reserved")
