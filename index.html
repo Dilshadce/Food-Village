@@ -941,9 +941,9 @@
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
         
         <script>
-        ₹("#submit-form").submit((e)=>{
+        $("#submit-form").submit((e)=>{
             e.preventDefault()
-            ₹.ajax({
+            $.ajax({
                 url:"https://script.google.com/macros/s/AKfycbxnkBotUNx1T756-CEBRh-_AOdm9wdS9FFNrrvlvA/exec",
                 data:₹("#submit-form").serialize(),
                 method:"post",
